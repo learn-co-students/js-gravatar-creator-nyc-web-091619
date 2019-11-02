@@ -55,8 +55,8 @@ input:focus {
   background-color: rgb(240, 240, 240);
   border: 1px solid rgb(220, 225, 230);
   border-radius: 4px;
-  width: 500px;
-  height: 500px;
+  width: 85%;
+  height: 85%;
   align-self: center;
   margin-bottom: 10px;
   display: grid;
