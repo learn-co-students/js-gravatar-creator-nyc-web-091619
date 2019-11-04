@@ -1,3 +1,7 @@
 class Identicon {
-  // make use of the md5.array method, which is in scope because we required it in our index.html
+  constructor(input) { //init
+    let arr = md5.array(input)
+    this.rgb = `rgb(${arr[0]}, ${arr[1]}, ${arr[2]})`
+    this.numbers = arr.slice(", ")
+  }
 }
